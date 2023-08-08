@@ -1,0 +1,29 @@
+{
+  "name": "attrigen",
+  "version": "1.0.0",
+  "description": "Attrigen is a data attribute generator tool for quicker and easier location of elements in DOM, used in e2e testing.",
+  "main": "attrigen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danijelmitrovic/attrigen.git"
+  },
+  "keywords": [
+    "data",
+    "attribute",
+    "generator",
+    "testing",
+    "e2e"
+  ],
+  "author": {
+    "name": "Danijel Mitrovic",
+    "url": "https://danijel.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danijelmitrovic/attrigen/issues"
+  },
+  "homepage": "https://pageobject.net/attrigen"
+}
