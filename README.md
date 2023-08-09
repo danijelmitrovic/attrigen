@@ -3,9 +3,9 @@ Attrigen is a data attribute generator tool for quicker and easier location of e
 It will generate `data-test-id` attribute on every DOM element it finds, so it will look like this:   
 ```html
 <div id="test" data-test-id="d1">
-<p data-test-id="d1p1">One</p>
-<p data-test-id="d1p2">Two</p>
-<p data-test-id="d1p3">Three</p>
+    <p data-test-id="d1p1">One</p>
+    <p data-test-id="d1p2">Two</p>
+    <p data-test-id="d1p3">Three</p>
 </div>
 ```   
 For example, `d1p3` stands for `div-1`(parent id) `paragraph-3`(element id), which is elements type and position in the DOM. The longer the `data-test-id` is, the deeper is elements location in DOM.   
@@ -20,7 +20,7 @@ npm install attrigen
 const attrigen = require('attrigen');
 test('Example e2e test', async ({page}) => {
     // ...
-    page.addInitScript(attrigen);
+    await page.addInitScript(attrigen);
     // ...
 })
 ```
