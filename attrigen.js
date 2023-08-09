@@ -15,9 +15,8 @@ module.exports = function attrigen() {
             generate(elementChild);
         }
     }
-    window.addEventListener('load', function () {
-        const element = document.body;
-        generate(element);
+
+    const listen = function (element) {
         const observer = new MutationObserver(function (mutations, observer) {
             for (const mutation of mutations) {
                 for (const addedNode of mutation.addedNodes) {
@@ -29,5 +28,14 @@ module.exports = function attrigen() {
             childList: true,
             subtree: true,
         });
+    }
+
+    const execute = function (element) {
+        generate(element);
+        listen(element);
+    }
+
+    window.addEventListener('load', function (e) {
+        execute(document.body);
     });
 }
