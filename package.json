@@ -1,6 +1,6 @@
 {
   "name": "attrigen",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Attrigen is a data attribute generator tool for quicker and easier location of elements in DOM, used in e2e testing.",
   "main": "index.js",
   "scripts": {
