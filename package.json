@@ -19,11 +19,11 @@
   ],
   "author": {
     "name": "Danijel Mitrovic",
-    "url": "https://danijel.net/"
+    "url": "https://www.danijel.net/"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/danijelmitrovic/attrigen/issues"
   },
-  "homepage": "https://pageobject.net/attrigen"
+  "homepage": "https://opensource.danijel.net/attrigen"
 }
